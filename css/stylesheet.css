@@ -1,0 +1,88 @@
+body{
+  width:100%;
+  margin:auto;
+  min-width:400px;
+  max-width: 1000px;
+}
+
+.wrapper{
+  margin-right:auto;
+  margin-left:auto;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.header{
+  width:800px;
+  display:inline;
+}
+
+.header p{
+  max-width:500px;
+}
+
+img{
+  width: 200px;
+  float:right;
+  padding-left:30px;
+}
+
+h1 {
+  font-family: Georgia, serif ;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+p{
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.person{
+    width:400px;
+}
+
+.person1{
+  display:inline-block;
+ }
+
+ .person1 strong{
+   display:inline-block;
+   width: 100px;
+   padding-right:50px;
+ }
+
+
+.schule{
+      width:400px;
+  }
+
+.person1{
+    display:inline-block;
+   }
+
+.schule1 strong{
+  display:inline-block;
+  width: 100px;
+  padding-right:50px;
+}
+
+.ausbildung{
+      width:400px;
+  }
+
+.ausbildung1{
+  display:inline-block;
+}
+
+.ausbildung1 strong{
+  display:inline-block;
+  width: 100px;
+  padding-right:50px;
+}
