@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	padding:0; margin:0;}
+
+
+body {
+	}
+		
+#website {
+		margin:auto;
+		width: 100%;
+		float:left;}
+	
+	
+		
+		
+header {
+		width: 100%;
+		height:130px;
+		background-color:rgba(255, 255, 255, 0.9);
+		position:fixed;}
+
+	
+		
+#logo {
+		height: 50px;
+		text-align:center;
+		position:relative;
+		margin-top:40px;}
+
+
+#logo img {
+		width: 180px;
+		height:auto;}	
+	
+	
+	
+
+#Inhalt {
+		width: 100%;
+		text-align:center;
+		margin-top: 118.75px;}
+	
+.bildersammlung{
+		display:inline-block;}	
+	
+		
+#bild01 {
+		background:url(../Material/Startseite/GinkgoGarten-01.png);
+		margin: 11.25px;
+		display: inline-block;}
+		
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;		
+		opacity:0;}
+		
+#bild01:hover .info{
+		background:rgba(255, 255, 255, 1);
+		opacity:1;}				
+		
+				
+	
+#bild02 {
+		background:url(../Material/Startseite/Typo_Memory_01.jpg);
+		margin: 11.25px;
+		display: inline-block;}	
+		
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;			
+		opacity:0;}	
+		
+#bild02:hover .info{
+		background-color:rgba(255, 255, 255, 1);
+		opacity:1;}						
+		
+		
+	
+#bild03 {
+		background:url(../Material/Startseite/Bildschirmfoto%202015-06-22%20um%2017.57.48.jpg);
+		margin: 11.25px;
+		display: inline-block;}	
+	
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;					
+		opacity:0;}	
+		
+#bild03:hover .info{
+		background-color:rgba(255, 255, 255, 1);
+		opacity:1;}				
+
+
+	
+#bild04 {
+		background:url(../Material/Startseite/S_seitlich.jpg);
+		margin: 11.25px;
+		display: inline-block;}	
+	
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;					
+		opacity:0;}	
+		
+#bild04:hover .info{
+		background-color:rgba(255, 255, 255, 1);
+		opacity:1;}				
+	
+	
+	
+#bild05 {
+		background:url(../Material/Startseite/_MG_1091.jpg);
+		margin: 11.25px;
+		display: inline-block;}	
+	
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;					
+		opacity:0;}	
+		
+#bild05:hover .info{
+		background-color:rgba(255, 255, 255, 1);
+		opacity:1;}			
+
+	
+	
+#bild06 {
+		background:url(../Material/Startseite/Conifere_Wortmarke_final-01.png);
+		margin: 11.25px;
+		display: inline-block;}	
+	
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;					
+		opacity:0;}	
+		
+#bild06:hover .info{
+		background-color:rgba(255, 255, 255, 1);
+		opacity:1;}			
+	
+	
+	
+#bild07 {
+		background:url(../Material/Startseite/_MG_7789.jpg);
+		margin: 11.25px;
+		display: inline-block;}	
+	
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;		
+		opacity:0;}	
+		
+#bild07:hover .info{
+		background-color:rgba(255, 255, 255, 1);
+		opacity:1;}			
+
+		
+		
+#bild08 {
+		background:url(../Material/Startseite/Seestern_Kampagne_MegaLightBoard.jpg);
+		margin: 11.25px;
+		display: inline-block;}	
+	
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;					
+		opacity:0;}	
+		
+#bild08:hover .info{
+		background-color:rgba(255, 255, 255, 1);
+		opacity:1;}				
+
+
+
+#bild09 {
+		background:url(../Material/Startseite/AHEAD_47_280314_Titel%20Kopie.jpg);
+		margin: 11.25px;
+		display: inline-block;}	
+	
+.info{
+		width: 385px;
+		height: 240px;
+		-webkit-transition: all 300ms ease-out;	
+		-moz-transition: all 300ms ease-out;					
+		opacity:0;}	
+		
+#bild09:hover .info{
+		background-color:rgba(255, 255, 255, 1);
+		opacity:1;}	
+		
+				
+
+h1 {
+		padding-top: 95px;
+		font-size:20px;
+		text-decoration:none;
+		font-weight:100;
+		color:#000;
+		font-family:Tahoma, Geneva, sans-serif;
+		letter-spacing:0.025em;}
+	
+	
+h2 {
+		padding-top: 5px;
+		padding-bottom: 20px;
+		font-size:16px;
+		text-decoration:none;
+		font-weight:100;
+		line-height: 2em;
+		color:#777;
+		font-family:Tahoma, Geneva, sans-serif;
+		letter-spacing:0.025em;}
+
+		
+		
+h3 {
+		font-size:14px;
+		text-decoration:none;
+		font-weight:100;
+		line-height: 3em;
+		color:#FFF;
+		font-family:Tahoma, Geneva, sans-serif;
+		letter-spacing:0.025em;
+		text-align:left;}
+	
+	
+h4 {
+		font-size:13px;
+		text-decoration:none;
+		font-weight:100;
+		line-height: 1.5em;
+		color:#CCC;
+		font-family:Tahoma, Geneva, sans-serif;
+		letter-spacing:0.025em;
+		text-align:left;}
+
+		
+
+footer {
+		width:100%;
+		height:auto;
+		text-align:center;
+		margin-top:80px;
+		padding-bottom: 30px;
+		background-color:rgba(10, 10, 10, 0.9);}
+	
+	
+#info{	
+		width:385px;
+		height:145px;
+		margin:11.25px;
+		margin-top:20px;
+		display:inline-block;
+		vertical-align:top;}		
+	
+		
+#kontakt{
+		width:385px;
+		height:100px;
+		margin:11.25px;
+		margin-top:10px;
+		display:inline-block;
+		vertical-align:top;}		
+		
+		
+#platzhalter{
+		width:385px;
+		height:1px;
+		margin:11.25px;
+		margin-top:10px;
+		display:inline-block;
+		vertical-align:top;}		
+
+
+#nav a{
+		text-decoration:none;
+		color:#CCC;
+		font-size:12px;
+		font-weight:100;
+		font-family:Tahoma, Geneva, sans-serif;
+		letter-spacing:0.025em;
+		font-size:14px;}
+		
+#nav a:hover{
+		color:#FFF;}		
+						
+						
+#impressum{
+		height:auto;
+		padding-right:30px;
+		text-align:right;}	
+		
+				
+	
+		

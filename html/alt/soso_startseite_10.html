@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>soso design</title>
+
+<link type="text/css" rel="stylesheet" href="../CSS/soso_startseite_10.css"></link>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#einblenden').click(function(){
+    	$('#text').show();
+    })
+	$('#einblenden').click(function(){
+    	$('#pfeil1').hide();
+    })
+    $('#ausblenden').click(function(){
+    	$('#pfeil1').show();
+    })
+	$('#ausblenden').click(function(){
+    	$('#text').hide();
+    })
+});
+
+
+
+$(window).scroll(function(){
+	if ($(this).scrollTop() > 100) {
+		$('#pfeil3').fadeIn();
+	} else {
+		$('#pfeil3').fadeOut();
+	}
+});
+
+
+	function animateToTop(e) {
+    e.preventDefault();
+    var scrollToTop = window.setInterval(function() {
+        var pos = window.pageYOffset;
+        if ( pos > 0 ) {
+            window.scrollTo( 0, pos - 20 );
+        } else {
+            window.clearInterval( scrollToTop );
+        }
+    }, 5);
+}
+
+
+</script>
+
+
+
+
+</head>
+
+<body>
+
+<div id="website">
+
+
+<header>
+
+
+	<div id="logo">
+		<a href="soso_startseite_10.html">
+			<img src="../Material/Logo/soso_Logo_300.png" alt="soso"/>
+		</a>
+	</div>  
+ 
+ 	<div id="menu">
+		<nav>
+			<div id="nav">
+				<a href="soso_vita_01.html" >VITA</a><br />
+            	<a href="soso_impressum_01.html" >IMPRESSUM</a><br />
+			</div>
+		</nav>
+	</div>
+
+    
+</header>
+ 
+
+
+<div id="pfeil3">
+	<a href="#" onclick="animateToTop(event)" > 
+        <img src="../Material/allgemein/Pfeil_oben_weiß.png" onmouseover=
+"src='../Material/allgemein/Pfeil_oben_farbig.png'" onmouseout="src='../Material/allgemein/Pfeil_oben_weiß.png'"/>  
+	</a>
+</div>
+
+
+
+
+
+
+<div id="inhalt">
+
+<div id="containerinhalt">
+
+	<div class="bildersammlung">
+    <a href="soso_ginkgogarten_01.html">
+	<div id="bild01">
+		<div class="info">
+          	<h1>Ginkgo Garten</h1>
+            <h2>Corporate Design</h2>
+        </div>
+	</div>
+    </a>
+    </div>
+
+
+
+	<div class="bildersammlung">
+    <a href="soso_memory_01.html">
+	<div id="bild02">
+		<div class="info">
+          	<h1>Typo-Memory</h1>
+            <h2>Bereich</h2>
+        </div>
+	</div>
+    </a>
+    </div>
+   
+   
+  	<div class="bildersammlung">
+    <a href="soso_arial_01.html">   
+    <div id="bild03">
+		<div class="info">
+          	<h1>Arial die Meerjungfrau</h1>
+            <h2>Animationsfilm</h2>
+        </div>
+    </div>
+    </a>
+    </div>
+ 
+   
+ 	<div class="bildersammlung">  
+    <a href="soso_buchstaben_01.html"> 
+    <div id="bild04">
+		<div class="info">
+          	<h1>3D-Buchstaben</h1>
+            <h2>Typographie</h2>
+        </div>
+    </div>
+    </a>  
+    </div>           
+  
+    
+ 	<div class="bildersammlung">  
+    <a href="soso_selfie_01.html">
+    <div id="bild05">
+		<div class="info">
+          	<h1>Selfie</h1>
+            <h2>Fotografie</h2>
+        </div>
+	</div>
+    </a>  
+    </div>          
+
+
+	<div class="bildersammlung">   
+  	<a href="soso_conifere_10.html">   
+   	<div id="bild06">     
+		<div class="info">
+          	<h1>Conifere</h1>
+            <h2>Wortmarke, Broschüre</h2>
+        </div>
+	</div>
+    </a>    
+    </div>           
+
+
+ 	<div class="bildersammlung">   
+    <a href="soso_tetrapak_01.html">
+    <div id="bild07">
+		<div class="info">
+          	<h1>Tetra Pak</h1>
+            <h2>Bereich</h2>
+        </div>
+    </div>
+    </a> 
+    </div>               
+
+    
+	<div class="bildersammlung">    
+    <a href="soso_seestern_01.html">   
+    <div id="bild08">
+		<div class="info">
+          	<h1>Wir sind Seestern</h1>
+            <h2>Leporello, City-Light-Poster, S-Bahn Beklebung</h2>
+        </div> 
+    </div>
+    </a>   
+    </div>
+
+  
+  	<div class="bildersammlung">  
+    <a href="soso_ahead_01.html">
+    <div id="bild09">  
+		<div class="info">
+          	<h1>Ahead</h1>
+            <h2>Newsletter</h2>
+        </div>
+    </div>
+    </a>  
+    </div>    
+
+ </div>
+     
+</div>
+
+
+
+
+<footer>
+  
+    <div class="footer1">
+    <h3>Über mich</h3>
+    <h4>Mein Name ist Sophie Sonnleitner. Ich bin Grafikdesignerin und studiere Kommunikationsdesign </br>an der HTW Berlin.</h4>
+    </div>
+    
+    
+    <div class="footer1">
+	<h3><p>Kontakt</p></h3>
+    <a href="mailto:gude@sosodesign.de">
+	<h5>gude@sosodesign.de</h5>
+   	</a>
+    </div>
+     
+       
+    <div class="footer1">
+    </div>
+
+
+	<div id="footer2">
+    &copy; Sophie Sonnleitner 2015
+    </div>
+
+
+</footer>
+
+
+
+
+</div>
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	padding:0; margin:0;}
+
+
+body {
+	}
+
+#website {
+		margin:auto;
+		width: 100%;
+		float:left;}
+
+
+header {
+		width: 100%;
+		height:130px;
+		background-color:rgba(255, 255, 255, 0.9);
+		position:fixed;
+		z-index:100;}
+
+
+#logo {
+		height: 50px;
+		text-align:center;
+		position:relative;
+		margin-top:40px;}
+
+
+#logo img {
+		width: 180px;
+		height:auto;}
+
+
+
+#Inhalt {
+		width: 100%;
+		margin-top: 130px;}
+
+
+h1{
+		font-weight:100;
+		font-size: 15px;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		text-align:left;
+		padding:0px 0px 15px 30px;
+		color:rgb(255,255,255);
+		letter-spacing:0.02em;}
+
+h2{		color:rgb(255,255,255);
+		font-weight:lighter;
+		font-size:14px;
+		line-height:1.7em;
+		letter-spacing:0.01em;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		text-align:left;
+		padding:0px 0px 10px 30px;}
+
+
+
+
+
+#information {
+		width:100%;
+		height:100%;
+		position:absolute;
+		z-index:50;}
+
+
+
+#containerinfo{
+		width:100%;
+		max-width:1200px;
+		height:auto;
+		margin: 0 auto;}
+
+
+
+#einleitung{
+		width:100%;
+		height:100%;
+		margin:auto;
+		text-align:center;
+		position:relative;}
+
+#einleitung img{
+		width:100%;
+		height:100% auto;
+		max-width:1200px;}
+
+
+#infotext{
+		margin-left:30px;
+		margin-top:30px;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-weight:lighter;
+		font-size:13px;
+		color:rgb(204,204,204);
+		letter-spacing:0.01em;}
+
+
+
+#text{
+		background:rgba(0, 0, 0, 0.9);
+		position:absolute;
+		width: 100% auto;
+		max-width:400px;
+		height: auto;
+		padding:18px 50px 15px 18px;
+		display:none;
+		margin:10px 30px 0px 30px;}
+
+
+#pfeil1{
+		background:rgba(0, 0, 0, 0.9);
+		background-image:url(..images/allgemein/pfeil_rechts_weiss.png);
+		background-repeat:no-repeat;
+		background-position: 50% 50%;
+		position:absolute;
+		height:50px;
+		width:50px;
+		margin-left:30px;
+		margin-top:10px;}
+
+#pfeil1:hover{
+		background-image:url(..images/allgemein/pfeil_rechts_grau.png);}
+
+
+
+#pfeil2{
+		background-image:url(..images/allgemein/pfeil_links_weiss.png);
+		background-repeat:no-repeat;
+		background-position: 50% 50%;
+		position:absolute;
+		height:50px;
+		width:50px;
+		margin: -18px 0px 0px -18px;
+		display:block;
+		z-index:10}
+
+#pfeil2:hover{
+		background-image:url(..images/allgemein/pfeil_links_grau.png);}
+
+
+
+#pfeil3{
+		background:rgba(0, 0, 0, 0.9);
+		background-image:url(..images/allgemein/pfeil_oben_weiss.png);
+		background-repeat:no-repeat;
+		background-position: 50% 50%;
+		height:50px;
+		width:50px;
+		z-index:75;
+		position:fixed;
+		right:45px;
+		bottom:100px;
+		display:none;}
+
+#pfeil3:hover{
+		background-image:url(..images/allgemein/pfeil_oben_grau.png);}
+
+
+
+#Bilder1{
+		width: 100%;
+		text-align:center;
+		margin-top: 15px;}
+
+#Bilder1 img{
+		width:100%;
+		height:100% auto;
+		max-width:1200px;
+		margin-bottom:60px;}
+
+
+#Bilder2{
+		width: 100%;
+		text-align:center;
+		margin-top: 30px;}
+
+#Bilder2 img{
+		width:100%;
+		height:100% auto;
+		max-width:1200px;}
+
+
+h3 {
+		font-size:14px;
+		text-decoration:none;
+		font-weight:100;
+		line-height: 3em;
+		color:rgb(255,255,255);
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		letter-spacing:0.01em;
+		text-align:left;
+		text-transform:uppercase;}
+
+
+h4 {
+		font-size:14px;
+		text-decoration:none;
+		font-weight:100;
+		line-height: 1.5em;
+		color:rgb(255,255,255);
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		letter-spacing:0.01em;
+		text-align:left;}
+
+h5 {
+		font-size:14px;
+		text-decoration:none;
+		font-weight:100;
+		line-height: 1.5em;
+		color:rgb(255,255,255);
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		letter-spacing:0.01em;
+		text-align:left;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-ms-transform: all 300ms ease-out;
+		-o-transform: all 300ms ease-out;}
+
+
+
+footer {
+		width:100%;
+		height:auto;
+		text-align:center;
+		margin-top:60px;
+		padding-bottom:30px;
+		background-color:rgba(10, 10, 10, 0.9);}
+
+
+.footer1{
+		width:365px;
+		height:auto;
+		margin:15px 31.25px 10px 11.25px;
+		display:inline-block;
+		vertical-align:top;}
+
+.footer1 a{
+		text-decoration:none;}
+
+.footer1 h5:hover{
+		color:rgb(170,170,170)}
+
+#footer2 {
+		margin-top:9px;}
+
+#footer3{
+		height:auto;
+		padding: 50px 30px 0px 0px;
+		text-align:right;
+		text-decoration:none;
+		color:#CCC;
+		font-size:12px;
+		font-weight:100;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		letter-spacing:0.025em;}

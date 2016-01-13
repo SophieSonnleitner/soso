@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	padding:0; margin:0;}
+
+
+body {
+	}
+		
+#website {
+		max-width: 1200px;
+		margin:auto;
+		padding: 0;}
+		
+		
+header {
+		width: 100%;
+		height:150px;}
+	
+		
+#logo {
+		max-width:1200px;
+		height: 50px;
+		text-align:center;
+		position:relative;
+		padding-top:30px;}
+
+
+#logo img {
+		width: 160px;
+		height:auto;}	
+	
+	
+	
+#nav {
+		width:120px;
+		margin:auto;
+		height: 50px;
+		font-family:Arial, Helvetica, sans-serif;}
+		
+		
+#nav a{
+		text-decoration:none;
+		color:#000;
+		font-size:15px;}
+				
+		
+#Info{
+		margin-top: 10px;
+		float:left;
+		margin-right:40px;
+		width:5%;}
+		
+		
+#Impressum {	
+		margin-top: 10px;
+		float:left;
+		width:7%;}
+	
+	
+
+#block {
+		max-width: 1200px;
+		text-align:center;
+		position:relative;
+		top: 10px;
+		margin:auto;}
+		
+		
+#arbeiten {
+		width:100%;
+}
+		
+
+.bilder {
+		float:left;
+		list-style:none;
+		margin:10px;}
+
+		

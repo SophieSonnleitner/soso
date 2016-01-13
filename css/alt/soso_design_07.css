@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	padding:0; margin:0;}
+
+
+body {
+	}
+		
+#website {
+		margin:auto;
+		width: 100%;
+		float:left;}
+		
+		
+header {
+		width: 100%;
+		height:160px;
+		background-color:rgba(255, 255, 255, 0.9);
+		position:fixed;}
+	
+		
+#logo {
+		height: 50px;
+		text-align:center;
+		position:relative;
+		margin-top:20px;}
+
+
+#logo img {
+		width: 180px;
+		height:auto;}	
+	
+	
+	
+#nav {
+		width:100%;
+		text-align:center;
+		height: 50px;
+		font-family:Arial, Helvetica, sans-serif;}
+		
+		
+#nav a{
+		text-decoration:none;
+		color:#777;
+		font-size:14px;}
+		
+#nav a:hover{
+		text-decoration:underline;}
+				
+		
+.Navigation{
+		margin: 20px;
+		width:auto;
+		display:inline-block;}
+	
+
+
+#Inhalt {
+		width: 100%;
+		text-align:center;
+		margin-top: 150px;
+		margin-bottom: 80px;}
+	
+		
+.bilder {
+		margin: 10px;
+		display: inline-block;}
+		
+.bilder a{
+		font-size:14px;
+		text-decoration:none;
+		color:#000;
+		font-family:Arial, Helvetica, sans-serif}		
+		
+.bilder a:hover{
+		text-decoration:underline;}
+
+
+.titel {
+		padding-top: 15px;}
+	
+	
+.bereich {
+		padding-top: 5px;
+		padding-bottom: 20px;
+		font-size:14px;
+		text-decoration:none;
+		color:#777;
+		font-family:Arial, Helvetica, sans-serif}
+
+		
+		
+		

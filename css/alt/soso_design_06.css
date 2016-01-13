@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	padding:0; margin:0;}
+
+
+body {
+	}
+		
+#website {
+		margin:auto;
+		width: 100%;
+		float:left;}
+		
+		
+header {
+		width: 100%;
+		height:180px;}
+	
+		
+#logo {
+		height: 50px;
+		text-align:center;
+		position:relative;
+		padding-top:50px;}
+
+
+#logo img {
+		width: 160px;
+		height:auto;}	
+	
+	
+	
+#nav {
+		width:120px;
+		margin:auto;
+		height: 50px;
+		font-family:Arial, Helvetica, sans-serif;}
+		
+		
+#nav a{
+		text-decoration:none;
+		color:#777;
+		font-size:13px;}
+		
+#nav a:hover{
+		text-decoration:underline;}
+				
+		
+#Info{
+		margin-top: 10px;
+		float:left;
+		margin-right:50px;
+		width:5%;}
+		
+		
+#Impressum {	
+		margin-top: 10px;
+		float:left;
+		width:7%;}
+
+
+#arbeiten {
+		width: 100%;
+		text-align:center;
+		margin-bottom: 50px;}
+	
+		
+.bilder {
+		margin: 15px;
+		display: inline-block;}
+		
+.bilder a{
+		font-size:13px;
+		text-decoration:none;
+		color:#000;
+		font-family:Arial, Helvetica, sans-serif}		
+		
+.bilder a:hover{
+		text-decoration:underline;}
+
+
+.titel {
+		padding-top: 15px;}
+	
+	
+.bereich {
+		padding: 5px;
+		font-size:13px;
+		text-decoration:none;
+		color:#777;
+		font-family:Arial, Helvetica, sans-serif}
+
+		
+		
+		
