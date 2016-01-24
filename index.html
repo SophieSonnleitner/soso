@@ -1,271 +1,249 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="de">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>soso design</title>
 
-<title>soso design</title>
-
-<link type="text/css" rel="stylesheet" href="css/style.css"></link>
-<link type="text/css" rel="stylesheet" href="css/unterseite.css"></link>
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-    $('#einblenden').click(function(){
-    	$('#text').show();
-    })
-	$('#einblenden').click(function(){
-    	$('#pfeil1').hide();
-    })
-    $('#ausblenden').click(function(){
-    	$('#pfeil1').show();
-    })
-	$('#ausblenden').click(function(){
-    	$('#text').hide();
-    })
-});
+          <link type="text/css" rel="stylesheet" href="css/style.css"></link>
+          <!-- type="text/css" rel="stylesheet" href="css/unterseite.css"></-->
 
 
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script type="text/javascript">
+            $(document).ready(function(){
+              $('#einblenden').click(function(){
+    	           $('#text').show();
+               })
+	            $('#einblenden').click(function(){
+    	           $('#pfeil1').hide();
+                })
+              $('#ausblenden').click(function(){
+    	           $('#pfeil1').show();
+                })
+	            $('#ausblenden').click(function(){
+    	           $('#text').hide();
+                })
+              });
 
-$(window).scroll(function(){
-	if ($(this).scrollTop() > 100) {
-		$('#pfeil3').fadeIn();
-	} else {
-		$('#pfeil3').fadeOut();
-	}
-});
-
-
-	function animateToTop(e) {
-    e.preventDefault();
-    var scrollToTop = window.setInterval(function() {
-        var pos = window.pageYOffset;
-        if ( pos > 0 ) {
-            window.scrollTo( 0, pos - 20 );
-        } else {
-            window.clearInterval( scrollToTop );
-        }
-    }, 5);
-}
-
-
-</script>
-
-
+              $(window).scroll(function(){
+	               if ($(this).scrollTop() > 100) {
+		                 $('#pfeil3').fadeIn();
+	                  } else {
+		              $('#pfeil3').fadeOut();
+	                  }
+              });
 
 
+	            function animateToTop(e) {
+                e.preventDefault();
+                  var scrollToTop = window.setInterval(function() {
+                    var pos = window.pageYOffset;
+                    if ( pos > 0 ) {
+                      window.scrollTo( 0, pos - 20 );
+                      } else {
+                      window.clearInterval( scrollToTop );
+                    }
+                  }, 5);
+                }
+
+          </script>
 </head>
 
+
+
 <body>
-<div id="website">
 
-
-<header>
-
-
-	<div id="logo">
-		<a href="index.html">
-			<img src="images/logo/soso_logo_300.png" alt="soso"/>
-		</a>
-	</div>
-
-
-
-</header>
-
-
-
-<a href="#" onclick="animateToTop(event)" >
-<div id="pfeil3">
-</div>
-</a>
-
-
-
-
-
-
-
-<div id="inhalt">
-
-<div id="containerinhalt">
-
-
-	<div class="bildersammlung">
-    <a href="html/soso_ballett_01.html">
-	<div id="bild11">
-		<div class="info">
-          	<h1>Ballettschule Röhrig</h1>
-            <h2>Programmheft</h2>
-        </div>
-	</div>
+    <a href="#" onclick="animateToTop(event)" >
+      <div id="pfeil3">
+      </div>
     </a>
+
+    <header>
+      <div class="logo">
+		    <a href="index.html">
+          <img src="images/logo/soso_logo_300.png" alt="soso"/>
+		    </a>
+	    </div>
+
+      <div id="pfeil3">
+    	  <a href="#" onclick="animateToTop(event)" >
+          <img src="../images/allgemein/pfeil_oben_weiß.png" onmouseover=
+            "src='../images/allgemein/pfeil_oben_grau.png'" onmouseout="src='../images/allgemein/pfeil_oben_weiß.png'"/>
+    	  </a>
+      </div>
+    </header>
+
+
+  <nav>
+    <a href="#one">one</a>
+    <a href="#two">two</a>
+    <a href="#three">three</a>
+  </nav>
+
+
+  <section id="one">
+  </section>
+
+
+
+  <section id="two">
+
+    <div class="inhalt">
+
+      <div class="box">
+        <a href="html/soso_ballett_01.html">
+        	<div class="bild">
+            <img src="images/home/ballett.jpg"/>
+              <div class="info">
+                <hr></hr>
+                <h1>Ballettschule Röhrig</h1>
+                <h2>Programmheft</h2>
+              </div>
+        	</div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="html/soso_memory_01.html">
+          <div class="bild">
+            <img src="images/home/typo_memory.jpg"/>
+        		  <div class="info">
+                <hr></hr>
+                <h1>Typo-Memory</h1>
+                <h2>Kartenspiel</h2>
+              </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="html/soso_arial_01.html">
+          <div class="bild">
+            <img src="images/home/arial.png"/>
+      		    <div class="info">
+                <hr></hr>
+                <h1>Arial die Meerjungfrau</h1>
+                <h2>Animationsfilm</h2>
+              </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="html/soso_buchstaben_01.html">
+          <div class="bild">
+            <img src="images/home/3d_buchstaben.jpg"/>
+    		      <div class="info">
+                <hr></hr>
+                <h1>3D-Buchstaben</h1>
+                <h2>Typographie</h2>
+              </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="html/soso_selfie_01.html">
+          <div class="bild">
+            <img src="images/home/selfie.jpg"/>
+    		    <div class="info">
+              <hr></hr>
+            	<h1>Selfie</h1>
+              <h2>Fotografie</h2>
+            </div>
+    	    </div>
+        </a>
+      </div>
+
+      <div class="box">
+      	<a href="html/soso_conifere_10.html">
+          <div class="bild">
+            <img src="images/home/conifere.jpg"/>
+    		    <div class="info">
+              <hr></hr>
+              <h1>Conifere</h1>
+              <h2>Wortmarke, Broschüre</h2>
+            </div>
+    	    </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="html/soso_tetrapak_01.html">
+          <div class="bild">
+            <img src="images/home/tetra_pak.jpg"/>
+    		      <div class="info">
+                <hr></hr>
+                <h1>Tetra Pak</h1>
+                <h2>Weihnachtsaktion</h2>
+              </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="html/soso_seestern_01.html">
+          <div class="bild">
+            <img src="images/home/seestern.jpg"/>
+    		      <div class="info">
+                <hr></hr>
+                <h1>Wir sind Seestern</h1>
+                <h2>Leporello, Poster, S-Bahn Beklebung</h2>
+              </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="html/soso_plakat_01.html">
+          <div class="bild">
+            <img src="images/home/plakate.jpg"/>
+    		      <div class="info">
+                <hr></hr>
+                <h1>Ausbildung Mediengestalter/in</h1>
+                <h2>Plakatgestaltung</h2>
+              </div>
+          </div>
+        </a>
+      </div>
+
+  </section>
+
+
+  <section id="three">
+    <div class="about">
+      <p>Hi, mein Name ist Sophie Sonnleitner. Nach meiner <br>Ausbildung zur Mediengestalterin, studiere ich <br>nun Kommunikationsdesign an der HTW in Berlin.</p>
+    </div>
+  </section>
+
+
+
+  <footer>
+
+    <div class="footer">
+      <h3>Kontakt</h3>
+        <a href="mailto:gude@sosodesign.de">
+          <h4>gude@sosodesign.de</h4>
+     	  </a>
+        <a href="html/soso_impressum_01.html">
+      <h3>Impressum</h3>
+        </a>
+
+
+
+  	<div class="footer3">
+      &copy; Sophie Sonnleitner 2015
     </div>
 
+  </div>
 
-	<div class="bildersammlung">
-    <a href="html/soso_ginkgogarten_01.html">
-	<div id="bild10">
-		<div class="info">
-          	<h1>Ginkgo Garten</h1>
-            <h2>Corporate Design</h2>
-        </div>
-	</div>
-    </a>
-    </div>
+  </footer>
 
 
 
-	<div class="bildersammlung">
-    <a href="html/soso_memory_01.html">
-	<div id="bild09">
-		<div class="info">
-          	<h1>Typo-Memory</h1>
-            <h2>Kartenspiel</h2>
-        </div>
-	</div>
-    </a>
-    </div>
-
-
-  	<div class="bildersammlung">
-    <a href="html/soso_arial_01.html">
-    <div id="bild08">
-		<div class="info">
-          	<h1>Arial die Meerjungfrau</h1>
-            <h2>Animationsfilm</h2>
-        </div>
-    </div>
-    </a>
-    </div>
-
-
- 	<div class="bildersammlung">
-    <a href="html/soso_buchstaben_01.html">
-    <div id="bild07">
-		<div class="info">
-          	<h1>3D-Buchstaben</h1>
-            <h2>Typographie</h2>
-        </div>
-    </div>
-    </a>
-    </div>
-
-
- 	<div class="bildersammlung">
-    <a href="html/soso_selfie_01.html">
-    <div id="bild06">
-		<div class="info">
-          	<h1>Selfie</h1>
-            <h2>Fotografie</h2>
-        </div>
-	</div>
-    </a>
-    </div>
-
-
-	<div class="bildersammlung">
-  	<a href="html/soso_conifere_10.html">
-   	<div id="bild05">
-		<div class="info">
-          	<h1>Conifere</h1>
-            <h2>Wortmarke, Broschüre</h2>
-        </div>
-	</div>
-    </a>
-    </div>
-
-
- 	<div class="bildersammlung">
-    <a href="html/soso_tetrapak_01.html">
-    <div id="bild04">
-		<div class="info">
-          	<h1>Tetra Pak</h1>
-            <h2>Weihnachtsaktion</h2>
-        </div>
-    </div>
-    </a>
-    </div>
-
-
-	<div class="bildersammlung">
-    <a href="html/soso_seestern_01.html">
-    <div id="bild03">
-		<div class="info">
-          	<h1>Wir sind Seestern</h1>
-            <h2>Leporello, City-Light-Poster, S-Bahn Beklebung</h2>
-        </div>
-    </div>
-    </a>
-    </div>
-
-
-  	<div class="bildersammlung">
-    <a href="html/soso_plakat_01.html">
-    <div id="bild02">
-		<div class="info">
-          	<h1>Ausbildung Mediengestalter/in</h1>
-            <h2>Plakatgestaltung</h2>
-        </div>
-    </div>
-    </a>
-    </div>
-
-
- </div>
-
-</div>
-
-
-
-
-<footer>
-
-    <div class="footer1">
-    <h3>Über mich</h3>
-    <h4>Mein Name ist Sophie Sonnleitner. Ich bin </br> Grafikdesignerin und studiere </br> Kommunikationsdesign an der HTW Berlin.</h4> <a href="soso_vita_01.html"><h5>(mehr)</h5></a>
-    </div>
-
-
-    <div class="footer1">
-	<h3>Kontakt</h3>
-    <a href="mailto:gude@sosodesign.de">
-	<h5>gude@sosodesign.de</h5>
-   	</a>
-
-    <div id="footer2">
-    <a href="soso_impressum_01.html">
-    <h3>Impressum</h3>
-    </a>
-    </div>
-
-    </div>
-
-
-    <div class="footer1">
-    </div>
-
-	<div id="footer3">
-    &copy; Sophie Sonnleitner 2015
-    </div>
-
-
-</footer>
-
-
-
-
-</div>
 
 
 </body>
-
-
-
-
-
-
-
 
 </html>

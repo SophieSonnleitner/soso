@@ -6,39 +6,114 @@
 	padding:0; margin:0;
 	}
 
-
-body {
+html, body {
+	    margin: 0;
+	    height:100%;
+	    width:100%;
+	    padding:0;
+	}
+section {
+	    display: block;
+	    height:100%;
+	    width:100%;
 	}
 
-#website {
-		margin:auto;
-		width: 100%;
-		float:left;}
+#one{
+	}
 
+#two{
+		padding-top:100px;
+		padding-bottom: 100px;
+		height: auto;
+	}
 
+#three{
+	padding-top:150px;
+	padding-bottom: 200px;
+	height: auto;
+	}
 
+nav {
+	    position: fixed;
+			z-index: 200;
+	}
+
+nav a {
+	    display: block;
+	    font-size: 12px;
+	    color: #FFF;
+	    text-align: center;
+	    background: #000;
+	    padding: 10px;
+	    margin: 3px;
+	}
+
+	h1 {
+			padding-top: 20px;
+			font-size:13px;
+			text-decoration:none;
+			font-weight: lighter;
+			color:#000;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			letter-spacing:0.025em;
+			text-transform:uppercase;
+			letter-spacing:0.05em;}
+
+	h2 {
+			padding-top: 5px;
+			padding-bottom: 20px;
+			font-size:13px;
+			text-decoration:none;
+			font-weight:100;
+			line-height: 2em;
+			color:rgb(100,100,100);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			letter-spacing:0.02em;
+			-webkit-transition: all 200ms ease-out;
+			-moz-transition: all 200ms ease-out;
+			-ms-transform: all 200ms ease-out;
+			-o-transform: all 200ms ease-out;
+		}
+
+	h3 {
+			font-size:14px;
+			text-decoration:none;
+			font-weight:100;
+			line-height: 3em;
+			color:rgb(255,255,255);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			letter-spacing:0.01em;
+			text-align:left;
+			text-transform:uppercase;}
+
+	h4 {
+			font-size:14px;
+			text-decoration:none;
+			font-weight:100;
+			line-height: 1.5em;
+			color:rgb(255,255,255);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			letter-spacing:0.01em;
+			text-align:left;
+			-webkit-transition: all 300ms ease-out;
+			-moz-transition: all 300ms ease-out;
+			-ms-transform: all 300ms ease-out;
+			-o-transform: all 300ms ease-out;}
 
 header {
 		width: 100%;
-		height:130px;
-		background-color:rgba(255, 255, 255, 0.9);
+		height:100px;
 		position:fixed;
 		z-index:100;}
 
-
-
-
-#logo {
-		height: 50px;
+.logo {
 		text-align:center;
 		position:relative;
-		margin-top:40px;}
+		margin-top:30px;}
 
-
-#logo img {
-		width: 180px;
+.logo img {
+		width: 150px;
 		height:auto;}
-
 
 #pfeil3{
 		background:rgba(0, 0, 0, 0.9);
@@ -56,219 +131,76 @@ header {
 #pfeil3:hover{
 		background-image:url(../images/allgemein/pfeil_oben_grau.png);}
 
+.inhalt {
+	max-width:1300px;
+	text-align: center;
+}
 
-#inhalt {
-		width: 100%;
-		text-align:center;
-		margin-top: 120px;}
+.box{
+	display:inline-block;
+	width:320px;
+	margin: 0px 15px 40px 15px;
+	padding-bottom: 35px;
+}
 
-#containerinhalt{
-		max-width:1300px;
-		display:inline-block;}
+.bild{
+		width: 320px;
+		height: 320px;
+		display: inline-block;
+}
 
 
-.bildersammlung{
-		display:inline-block;}
-
+.box:hover hr{
+		width: 320px;
+		}
 
 .info{
-		width: 385px;
-		height: 240px;
-		-webkit-transition: all 300ms ease-out;
-		-moz-transition: all 300ms ease-out;
-		-ms-transform: all 300ms ease-out;
-		-o-transform: all 300ms ease-out;
-		opacity:0;}
+		width:320px;
+}
 
 
-#bild11 {
-		background:url(../images/home/ballett.jpg);
-		margin: 11.25px;
-		display: inline-block;}
+hr{
+	margin: auto;
+	color:;
+	background-color:rgba(135, 187, 230, 1);
+	border: none;
+	height:2px;
+	width: 60px;
+	margin-top: 15px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-ms-transform: all 300ms ease-out;
+	-o-transform: all 300ms ease-out;
+}
 
-#bild11:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
+.about{
+	max-width:1070px;
+	margin: auto;
+	}
 
-
-#bild10 {
-		background:url(../images/home/ginkgo_garten.png);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild10:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-
-#bild09 {
-		background:url(../images/home/typo_memory.jpg);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild09:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-
-#bild08 {
-		background:url(../images/home/arial.jpg);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild08:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-
-#bild07 {
-		background:url(../images/home/3d_buchstaben.jpg);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild07:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-
-#bild06 {
-		background:url(../images/home/selfie.jpg);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild06:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-
-#bild05 {
-		background:url(../images/home/conifere.png);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild05:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-
-#bild04 {
-		background:url(../images/home/tetra_pak.jpg);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild04:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-
-#bild03 {
-		background:url(../images/home/seestern.jpg);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild03:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-#bild02 {
-		background:url(../images/home/plakate.jpg);
-		margin: 11.25px;
-		display: inline-block;}
-
-#bild02:hover .info{
-		background:rgba(255, 255, 255, 1);
-		opacity:1;}
-
-
-
-
-
-h1 {
-		padding-top: 95px;
-		font-size:20px;
-		text-decoration:none;
-		font-weight:100;
-		color:#000;
-		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-		letter-spacing:0.025em;
-		text-transform:uppercase;
-		letter-spacing:0.05em;}
-
-
-h2 {
-		padding-top: 5px;
-		padding-bottom: 20px;
-		font-size:16px;
-		text-decoration:none;
-		font-weight:100;
-		line-height: 2em;
-		color:rgb(51,51,51);
-		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-		letter-spacing:0.01em;}
-
-
-
-h3 {
-		font-size:14px;
-		text-decoration:none;
-		font-weight:100;
-		line-height: 3em;
-		color:rgb(255,255,255);
-		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-		letter-spacing:0.01em;
-		text-align:left;
-		text-transform:uppercase;}
-
-
-h4 {
-		font-size:14px;
-		text-decoration:none;
-		font-weight:100;
-		line-height: 1.5em;
-		color:rgb(255,255,255);
-		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-		letter-spacing:0.01em;
-		text-align:left;}
-
-h5 {
-		font-size:14px;
-		text-decoration:none;
-		font-weight:100;
-		line-height: 1.5em;
-		color:rgb(255,255,255);
-		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-		letter-spacing:0.01em;
-		text-align:left;
-		-webkit-transition: all 300ms ease-out;
-		-moz-transition: all 300ms ease-out;
-		-ms-transform: all 300ms ease-out;
-		-o-transform: all 300ms ease-out;}
-
-
+.about p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
 
 footer {
 		width:100%;
 		height:auto;
 		text-align:center;
-		margin-top:60px;
 		padding-bottom:30px;
 		background-color:rgba(10, 10, 10, 0.9);}
 
 
-.footer1{
-		width:365px;
+
+.footer{
+		max-width:1070px;
 		height:auto;
-		margin:15px 31.25px 10px 11.25px;
-		display:inline-block;
-		vertical-align:top;}
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: auto}
 
 .footer1 a{
 		text-decoration:none;}
