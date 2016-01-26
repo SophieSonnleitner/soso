@@ -28,9 +28,9 @@
 
               $(window).scroll(function(){
 	               if ($(this).scrollTop() > 100) {
-		                 $('#pfeil3').fadeIn();
+		                 $('#pfeiloben').fadeIn();
 	                  } else {
-		              $('#pfeil3').fadeOut();
+		              $('#pfeiloben').fadeOut();
 	                  }
               });
 
@@ -54,10 +54,6 @@
 
 <body>
 
-    <a href="#" onclick="animateToTop(event)" >
-      <div id="pfeil3">
-      </div>
-    </a>
 
     <header>
       <div class="logo">
@@ -66,23 +62,30 @@
 		    </a>
 	    </div>
 
-      <div id="pfeil3">
-    	  <a href="#" onclick="animateToTop(event)" >
-          <img src="../images/allgemein/pfeil_oben_weiß.png" onmouseover=
-            "src='../images/allgemein/pfeil_oben_grau.png'" onmouseout="src='../images/allgemein/pfeil_oben_weiß.png'"/>
-    	  </a>
+    <a href="#" onclick="animateToTop(event)">
+      <div id="pfeiloben">
+        <div class="pfeil">
+          &and;
+          <hr></hr>
+        </div>
       </div>
+    </a>
+
     </header>
 
 
   <nav>
-    <a href="#one">one</a>
-    <a href="#two">two</a>
-    <a href="#three">three</a>
+      <a href="#one"><hr></hr></a>
+      <a href="#two"><hr></hr></a>
+      <a href="#three"><hr></hr></a>
+      <a href="#four"><hr></hr></a>
+
   </nav>
 
 
   <section id="one">
+    <div class="startbild">
+    </div>
   </section>
 
 
@@ -92,7 +95,7 @@
     <div class="inhalt">
 
       <div class="box">
-        <a href="html/soso_ballett_01.html">
+        <a href="html/ballett.html">
         	<div class="bild">
             <img src="images/home/ballett.jpg"/>
               <div class="info">
@@ -105,7 +108,7 @@
       </div>
 
       <div class="box">
-        <a href="html/soso_memory_01.html">
+        <a href="html/memory.html">
           <div class="bild">
             <img src="images/home/typo_memory.jpg"/>
         		  <div class="info">
@@ -118,7 +121,7 @@
       </div>
 
       <div class="box">
-        <a href="html/soso_arial_01.html">
+        <a href="html/arial.html">
           <div class="bild">
             <img src="images/home/arial.png"/>
       		    <div class="info">
@@ -131,7 +134,7 @@
       </div>
 
       <div class="box">
-        <a href="html/soso_buchstaben_01.html">
+        <a href="html/buchstaben.html">
           <div class="bild">
             <img src="images/home/3d_buchstaben.jpg"/>
     		      <div class="info">
@@ -144,7 +147,7 @@
       </div>
 
       <div class="box">
-        <a href="html/soso_selfie_01.html">
+        <a href="html/selfie.html">
           <div class="bild">
             <img src="images/home/selfie.jpg"/>
     		    <div class="info">
@@ -157,7 +160,7 @@
       </div>
 
       <div class="box">
-      	<a href="html/soso_conifere_10.html">
+      	<a href="html/conifere.html">
           <div class="bild">
             <img src="images/home/conifere.jpg"/>
     		    <div class="info">
@@ -170,7 +173,7 @@
       </div>
 
       <div class="box">
-        <a href="html/soso_tetrapak_01.html">
+        <a href="html/tetrapak.html">
           <div class="bild">
             <img src="images/home/tetra_pak.jpg"/>
     		      <div class="info">
@@ -183,7 +186,7 @@
       </div>
 
       <div class="box">
-        <a href="html/soso_seestern_01.html">
+        <a href="html/seestern.html">
           <div class="bild">
             <img src="images/home/seestern.jpg"/>
     		      <div class="info">
@@ -196,7 +199,7 @@
       </div>
 
       <div class="box">
-        <a href="html/soso_plakat_01.html">
+        <a href="html/plakat.html">
           <div class="bild">
             <img src="images/home/plakate.jpg"/>
     		      <div class="info">
@@ -217,27 +220,38 @@
     </div>
   </section>
 
+  <section id="four">
+    <div class="kontakt">
+      <img src="images/home/mail.png"/>
+      <a href="mailto:sophie.sonnleitner@gmail.com">
+        <h3>sophie.sonnleitner@gmail.com</h3>
+      </a>
+    </div>
+    <div class="kontakt">
+      <img src="images/home/mail.png"/>
+      <a href="mailto:sophie.sonnleitner@gmail.com">
+        <h3>sophie.sonnleitner@gmail.com</h3>
+      </a>
+    </div>
+    <div class="kontakt">
+      <img src="images/home/mail.png"/>
+      <a href="mailto:sophie.sonnleitner@gmail.com">
+        <h3>sophie.sonnleitner@gmail.com</h3>
+      </a>
+    </div>
+  </section>
+
+
 
 
   <footer>
-
-    <div class="footer">
-      <h3>Kontakt</h3>
-        <a href="mailto:gude@sosodesign.de">
-          <h4>gude@sosodesign.de</h4>
-     	  </a>
-        <a href="html/soso_impressum_01.html">
-      <h3>Impressum</h3>
-        </a>
-
-
-
-  	<div class="footer3">
-      &copy; Sophie Sonnleitner 2015
+  	<div class="copyright">
+      <a href="html/impressum.html">
+        Impressum<br>
+        <hr></hr>
+      </a>
+      &copy; Sophie Sonnleitner 2016, all rights reserved.
     </div>
-
-  </div>
-
   </footer>
 
 
