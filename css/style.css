@@ -20,21 +20,18 @@ section {
 }
 
 #one{
-}
-
-#two{
 	padding-top:100px;
 	padding-bottom: 100px;
 	height: auto;
 }
 
-#three{
-	padding-top:150px;
-	padding-bottom: 300px;
+#two{
+	padding-top:200px;
+	padding-bottom: 120px;
 	height: auto;
 }
 
-#four{
+#three{
 	padding-top:150px;
 	padding-bottom: 150px;
 	height: auto;
@@ -44,66 +41,40 @@ section {
 nav {
 	position: fixed;
 	z-index: 200;
-	top: 29%;
+	top: 25%;
+	width:80px;
 }
 
 nav a {
-	display: block;
-	font-size: 12px;
-	text-align: center;
-	padding: 10px;
-	margin: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
 }
 
 nav hr{
-	margin: auto;
 	background-color:rgba(135, 187, 230, 1);
 	border: none;
 	height:2px;
-	width: 10px;
-	margin-top: 15px;
+	width: 15px;
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
 	-ms-transform: all 300ms ease-out;
 	-o-transform: all 300ms ease-out;
 }
 
-nav:hover hr{
-	width: 30px;
+nav a:hover hr{
+	width: 70px;
 }
 
-h1 {
-	padding-top: 15px;
-	font-size:13px;
-	font-weight: normal;
-	color:#000;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	letter-spacing:0.025em;
-	text-transform:uppercase;
-	letter-spacing:0.05em;
-}
-
-h2 {
-	padding-bottom: 20px;
-	font-size:12px;
-	font-weight: normal;
-	line-height: 3em;
-	color:rgb(100,100,100);
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	letter-spacing:0.02em;
-	-webkit-transition: all 200ms ease-out;
-	-moz-transition: all 200ms ease-out;
-	-ms-transform: all 200ms ease-out;
-	-o-transform: all 200ms ease-out;
-}
-
-h3 {
-	padding-top: 15px;
-	font-size:14px;
+nav p{
+	font-family: 'Open Sans', sans-serif;
 	color:rgb(0,0,0);
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	letter-spacing:0.02em;
+	font-weight: 300;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	margin-top: 30px;
 }
 
 header {
@@ -124,16 +95,6 @@ header {
 	height:auto;
 }
 
-.startbild {
-	background-image: url(../images/home/ich.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	width:100%;
-	height:100%;
-}
-
 #pfeiloben{
 	background-repeat:no-repeat;
 	background-position: 50% 50%;
@@ -145,17 +106,15 @@ header {
 	bottom:45px;
 }
 
-
 #pfeiloben:hover hr{
 	width: 30px;
 }
 
-
 .pfeil{
-	color:rgb(100,100,100);
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:rgb(0,0,0);
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -171,9 +130,54 @@ header {
 	-o-transform: all 300ms ease-out;
 }
 
+h1 {
+	padding-top: 15px;
+	font-size:13px;
+	font-weight: 300;
+	color:#000;
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:0.05em;
+}
+
+h2 {
+	padding-bottom: 20px;
+	font-size:12px;
+	font-weight: 300;
+	line-height: 2em;
+	color:rgb(100,100,100);
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing:0.05em;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transform: all 200ms ease-out;
+	-o-transform: all 200ms ease-out;
+}
+
+h3 {
+	padding-top: 15px;
+	font-size:14px;
+	color:rgb(0,0,0);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	letter-spacing:0.05em;
+}
+
+.startbild {
+	background-image: url(../images/home/ich.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width:100%;
+	height:100%;
+}
+
 .inhalt {
 	max-width:1300px;
 	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .box{
@@ -211,16 +215,18 @@ header {
 }
 
 .about{
-	max-width:1070px;
 	margin: auto;
+	max-width: 1200px;
 }
 
 .about p {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	line-height: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 55px;
+	padding-left: 130px;
+	padding-right: 130px;
 }
 
 .kontakt{
@@ -268,9 +274,10 @@ footer {
 	height:auto;
 	color:rgb(255,255,255);
 	font-size:11px;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	text-transform:uppercase;
-	letter-spacing:0.025em;
+	letter-spacing:0.1em;
 	line-height: 3em;
 }
 

@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>soso design</title>
+
+<link type="text/css" rel="stylesheet" href="../css/style.css"></link>
+<link type="text/css" rel="stylesheet" href="../css/unterseite.css"></link>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#einblenden').click(function(){
+    	$('#text').show();
+    })
+	$('#einblenden').click(function(){
+    	$('#pfeil1').hide();
+    })
+    $('#ausblenden').click(function(){
+    	$('#pfeil1').show();
+    })
+	$('#ausblenden').click(function(){
+    	$('#text').hide();
+    })
+});
+
+
+
+$(window).scroll(function(){
+	if ($(this).scrollTop() > 100) {
+		$('#pfeil3').fadeIn();
+	} else {
+		$('#pfeil3').fadeOut();
+	}
+});
+
+
+	function animateToTop(e) {
+    e.preventDefault();
+    var scrollToTop = window.setInterval(function() {
+        var pos = window.pageYOffset;
+        if ( pos > 0 ) {
+            window.scrollTo( 0, pos - 20 );
+        } else {
+            window.clearInterval( scrollToTop );
+        }
+    }, 5);
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="website">
+
+
+<header>
+
+
+	<div id="logo">
+		<a href="../index.html">
+			<img src="../images/logo/soso_logo_300.png" alt="soso"/>
+		</a>
+	</div>
+
+
+
+
+</header>
+
+
+
+<a href="#" onclick="animateToTop(event)" >
+<div id="pfeil3">
+</div>
+</a>
+
+
+<div id="Inhalt">
+
+
+
+	<div id="information">
+
+
+    <div id="containerinfo">
+
+
+        <div id="infotext">
+        Information
+        </div>
+
+        <a href="javascript:return false;" id="einblenden" >
+        <div id="pfeil1">
+        </div>
+        </a>
+
+
+        <div id="text">
+
+        <a href="javascript:return false;" id="ausblenden">
+        <div id="pfeil2">
+        </div>
+        </a>
+
+    	<h1>CONIFERE</h1>
+		<h2>Aufgabe war es für die Schreinerei "Conifere" eine Wortmarke sowie eine Broschüre zu gestalten. Diese sollte die Qualität der Verarbeitung und der verwendeten Materialien unterstreichen. Text und Bilder für die Broschüre wurden gestellt. </h2>
+        </div>
+
+   	</div>
+  	</div>
+
+
+
+
+	<div id="einleitung">
+		<img src="../images/Conifere/Bild_19_be.jpg" />
+	</div>
+
+
+
+	<div id="Bilder1">
+    	<img src="../images/Conifere/Conifere_Scribble.jpg"/>
+        <img src="../images/Conifere/Logo_Schrift_Farben.png"/>
+	</div>
+
+
+	<div id="Bilder2">
+       	<img src="../images/Conifere/Conifere_Broschüre.jpg"/>
+	</div>
+
+
+
+</div>
+
+
+
+
+
+<footer>
+
+    <div class="footer1">
+    <h3>Über mich</h3>
+    <h4>Mein Name ist Sophie Sonnleitner. Ich bin </br> Grafikdesignerin und studiere </br> Kommunikationsdesign an der HTW Berlin.</h4> <a href="soso_vita_01.html"><h5>(mehr)</h5></a>
+    </div>
+
+
+    <div class="footer1">
+	<h3>Kontakt</h3>
+    <a href="mailto:gude@sosodesign.de">
+	<h5>gude@sosodesign.de</h5>
+   	</a>
+
+    <div id="footer2">
+    <a href="soso_impressum_01.html">
+    <h3>Impressum</h3>
+    </a>
+    </div>
+
+    </div>
+
+
+    <div class="footer1">
+    </div>
+
+	<div id="footer3">
+    &copy; Sophie Sonnleitner 2015
+    </div>
+
+
+</footer>
+
+
+
+
+
+
+</div>
+
+
+</body>
+
+
+
+
+
+</html>
