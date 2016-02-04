@@ -92,11 +92,23 @@ h1{
 	margin:auto;
 }
 
+.video{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom:100px;
+}
+
+video{
+	max-width:800px;
+	width:100%;
+}
+
 .bild1{
 	max-width: 1300px;
 	padding: 0px 100px 0px 100px;
 	text-align:center;
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 }
 
 .bild1 img{
