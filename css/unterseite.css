@@ -54,7 +54,7 @@ nav hr{
 	background-color:rgba(135, 187, 230, 1);
 	border: none;
 	height:2px;
-	width: 15px;
+	width: 0px;
 	margin-top: 5px;
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
@@ -63,7 +63,7 @@ nav hr{
 }
 
 nav a:hover hr{
-	width:80px;
+	width:75px;
 }
 
 h1{
@@ -71,7 +71,7 @@ h1{
 	font-weight:lighter;
 	font-size: 40px;
 	line-height: 55px;
-	padding: 50px 130px 40px 130px;
+	padding: 50px 130px 60px 130px;
 	letter-spacing:0.01em;
 	font-family: 'Open Sans', sans-serif;
 	text-align:center;
@@ -92,19 +92,9 @@ h1{
 	margin:auto;
 }
 
-.text hr{
-	background-color:rgba(135, 187, 230, 1);
-	margin:auto;
-	border: none;
-	height:2px;
-	width: 100px;
-	margin-bottom: 50px;
-}
-
 .bild1{
 	max-width: 1300px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding: 0px 100px 0px 100px;
 	text-align:center;
 	margin-bottom: 50px;
 }
@@ -115,8 +105,7 @@ h1{
 
 .bild2{
 	max-width: 1300px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding: 0px 100px 0px 100px;
 	text-align:center;
 	margin-bottom: 10px;
 }
@@ -135,15 +124,15 @@ h1{
 .pfeile li{
 	display: inline-block;
 	margin: 20px;
-	width:40px;
+	width:50px;
 }
 
 .pfeile a{
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	color:rgb(0,0,0);
-	font-weight: 400;
-	font-size: 20px;
+	font-weight: 300;
+	font-size: 25px;
 	text-transform: uppercase;
 }
 
@@ -151,7 +140,7 @@ h1{
 	background-color:rgba(135, 187, 230, 1);
 	border: none;
 	height:2px;
-	width: 15px;
+	width: 0px;
 	margin: auto;
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
@@ -161,10 +150,6 @@ h1{
 
 .pfeile a:hover hr{
 	width: 40px;
-}
-
-#pfeiloben{
-	font-size: 22px;
 }
 
 footer {
@@ -197,7 +182,7 @@ footer {
 	background-color:rgba(135, 187, 230, 1);
 	border: none;
 	height:2px;
-	width: 40px;
+	width: 0px;
 	margin-bottom: 5px;
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
