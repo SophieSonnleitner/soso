@@ -32,7 +32,7 @@ header {
 nav {
 	position: fixed;
 	z-index: 200;
-	top: 20%;
+	top: 25%;
 }
 
 nav li{
