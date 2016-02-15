@@ -126,7 +126,7 @@ video{
 	max-width: 1300px;
 	padding: 0px 100px 0px 100px;
 	text-align:center;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .bild2 img{
@@ -143,16 +143,11 @@ video{
 .pfeile li{
 	display: inline-block;
 	margin: 20px;
-	width:50px;
+	width:90px;
 }
 
-.pfeile a{
-	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
-	color:rgb(0,0,0);
-	font-weight: 300;
-	font-size: 25px;
-	text-transform: uppercase;
+.pfeile img{
+	width:25px;
 }
 
 .pfeile hr{
@@ -266,12 +261,8 @@ footer {
 		height:100% auto;
 	}
 
-	.pfeile a{
-		font-size: 25px;
-	}
-
 	.pfeile hr{
-		width: 30px;
+		display:none;
 	}
 
 	footer {
