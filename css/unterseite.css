@@ -79,6 +79,7 @@ h1{
 
 .inhalt {
 	width: 100%;
+	text-align: center;
 }
 
 .startbild{
@@ -86,6 +87,7 @@ h1{
 	padding: 0px 100px 0px 100px;
 	text-align:center;
 	padding-top:100px;
+	margin: 0 auto;
 }
 
 .startbild img{
@@ -115,7 +117,8 @@ video{
 	max-width: 1300px;
 	padding: 0px 100px 0px 100px;
 	text-align:center;
-	margin-bottom: 5%;
+	padding-bottom: 5%;
+	margin: 0 auto;
 }
 
 .bild1 img{
@@ -126,7 +129,8 @@ video{
 	max-width: 1300px;
 	padding: 0px 100px 0px 100px;
 	text-align:center;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
 }
 
 .bild2 img{
