@@ -15,12 +15,24 @@
                   var scrollToTop = window.setInterval(function() {
                     var pos = window.pageYOffset;
                     if ( pos > 0 ) {
-                      window.scrollTo( 0, pos - 20 );
+                      window.scrollTo( 0, pos - 15 );
                       } else {
                       window.clearInterval( scrollToTop );
                     }
                   }, 5);
                 }
+
+                $(document).ready(function() {
+                	$('a[href*=#]').bind("click", function(event) {
+                		event.preventDefault();
+                		var ziel = $(this).attr("href");
+
+                		$('html,body').animate({
+                			scrollTop: $(ziel).offset().top
+                		}, 800 , function (){location.hash = ziel;});
+                });
+                return false;
+                });
 
 
           </script>
@@ -49,6 +61,19 @@
   <section id="one">
 
     <div class="inhalt">
+
+      <div class="box">
+        <a href="html/kalender.html">
+        	<div class="bild">
+            <img src="images/home/kalender.jpg" alt="online kalender, 1. semester, digitale medien">
+              <div class="info">
+                <hr>
+                <h1>Liner</h1>
+                <h2>Online-Kalender</h2>
+              </div>
+        	</div>
+        </a>
+      </div>
 
       <div class="box">
         <a href="html/ballett.html">
